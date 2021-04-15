@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 
+// fetch data function
 const fetchData = async() => {
   try {
     const url = "http://jsonplaceholder.typicode.com/posts"
